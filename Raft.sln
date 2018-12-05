@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raft", "Raft\Raft.csproj", "{AF4799CA-8D78-47C7-99CC-4EB7797A6D2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raft.Tests", "Raft.Tests\Raft.Tests.csproj", "{45F91F37-6CF9-4A13-B0C7-11DD9212D2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raft.Example", "Raft.Example\Raft.Example.csproj", "{A94129B3-975B-4A11-8535-8540C9A0299F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{AF4799CA-8D78-47C7-99CC-4EB7797A6D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF4799CA-8D78-47C7-99CC-4EB7797A6D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF4799CA-8D78-47C7-99CC-4EB7797A6D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F91F37-6CF9-4A13-B0C7-11DD9212D2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F91F37-6CF9-4A13-B0C7-11DD9212D2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F91F37-6CF9-4A13-B0C7-11DD9212D2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F91F37-6CF9-4A13-B0C7-11DD9212D2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94129B3-975B-4A11-8535-8540C9A0299F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94129B3-975B-4A11-8535-8540C9A0299F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94129B3-975B-4A11-8535-8540C9A0299F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94129B3-975B-4A11-8535-8540C9A0299F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
